@@ -1,7 +1,8 @@
 port urllib.parse
 
 route_url = "https://graphhopper.com/api/1/route?"
-key = ""  # upload your key
+# Insert your GraphHopper API key here
+key = "YOUR_GRAPHHOPPER_API_KEY"
 
 
 def geocoding(location, key):
